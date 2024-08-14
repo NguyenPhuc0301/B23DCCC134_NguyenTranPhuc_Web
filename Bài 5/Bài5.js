@@ -1,0 +1,1 @@
+document.getElementById("image").src = "Mcc.jpg" ;
