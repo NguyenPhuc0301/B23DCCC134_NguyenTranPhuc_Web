@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành createElement</title>
+</head>
+<body>
+    <h1>Ví dụ createElement</h1>
+    <div id="container"></div>
+    <script>
+        const newDiv = document.createElement('div');
+        newDiv.textContent = 'Đây là một thẻ div được tạo động sử dụng createElement trong JavaScript.';
+        newDiv.className = 'dynamic-div';
+        const container = document.getElementById('container');
+        container.appendChild(newDiv);
+    </script>
+</body>
+</html>
